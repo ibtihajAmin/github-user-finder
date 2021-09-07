@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+body {
+    background-color: #f7f1e3;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.property {
+    font-size: 12px;
+    width: 130px;
+    background-color: aqua;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.property:nth-child(1){
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+}
+
+.property:nth-child(2){
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #fff;
+}
+
+.property:nth-child(3){
+    background: linear-gradient(to right, #005c97, #363795);
+    color: #fff;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.bttn {
+    font-size: 13px;
+    background: linear-gradient(to right, #76b852, #8dc26f);
+    border-radius: 10px;
+    width: auto;
+    color: #fff;
+}
