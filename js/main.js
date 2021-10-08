@@ -9,6 +9,7 @@ const searchUser = () => {
         .then(res => res.json())
         .then(data => displayUser(data))
 
+    document.getElementById('user-input').value = '';
 }
 
 const showDynamicData = (id, text) => {
